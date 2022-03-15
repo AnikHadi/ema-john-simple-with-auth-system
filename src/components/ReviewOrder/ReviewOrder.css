@@ -1,0 +1,82 @@
+.shop-details {
+    padding-bottom: 4rem;
+}
+.total-product{
+    text-align: center;
+    padding: 0.7rem;
+}
+.review-section {
+    display: flex;
+    width: 100%;
+    margin-left: 20%;
+    padding: 0.7rem;
+}
+
+.review-details {
+    width: 30%;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.review-details img {
+    width: 60%;
+}
+
+.review-name {
+    width: 50%;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.review-details button {
+    width: 10rem;
+    background-image: linear-gradient(lightsalmon, #e98270);
+    border-radius: 0.6rem;
+    border: 1px solid #00000069;
+    margin-top: 0.7rem;
+}
+
+.review-details button:active {
+    width: 13.2rem;
+    padding: 0.07rem;
+}
+
+@media only screen and (max-width: 688) {
+    .review-details {
+        width: 80%;
+    }
+
+    .review-details img {
+        width: 100%;
+    }
+
+    .review-details button {
+        width: 8rem;
+    }
+}
+
+@media only screen and (min-width: 689) and (max-width: 991) {
+    .review-details {
+        width: 100%;
+    }
+
+    .review-details img {
+        width: 80%;
+    }
+
+    .review-details button {
+        width: 5rem;
+    }
+}
+
+/* Quantity Control */
+
+.quantity-control input{
+    width: 35px;
+    border: none;
+}
+.item-quantity{
+    padding: 0px 2rem;
+    font-size: 2rem;
+}

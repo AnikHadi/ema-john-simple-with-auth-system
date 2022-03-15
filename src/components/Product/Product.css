@@ -1,0 +1,24 @@
+.product{
+    display: flex;
+    margin-left: 15%;
+}
+.product-details {
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+}
+.product-details button{
+    width: 13rem;
+    background-image: linear-gradient(lightsalmon, #e98270);
+    border-radius: 0.6rem;
+    border: 1px solid #00000069;
+}
+.product-details button:active{
+    width: 13.2rem;
+    padding: 0.07rem;
+}
+.icon-color{
+    float: right;
+    margin-right: 5rem;
+    color: gold;
+}

@@ -1,0 +1,25 @@
+.search-input {
+    background-color: #000000d8;
+    padding: 20px 0;
+}
+.search-input input{
+   line-height: 10px;
+   width: 75%;
+   margin-left: 150px;
+}
+.shop {
+    display: flex;
+}
+.shop-details {
+    width: 82%;
+    border-right: 1px solid lightgray;
+}
+.shop-order-summary {
+    padding-left: 10px;
+}
+.shop-order-summary button{
+    width: 14rem;
+    background-image: linear-gradient(lightsalmon, #e98270);
+    border-radius: 0.6rem;
+    border: 1px solid #00000069;
+}

@@ -1,0 +1,18 @@
+.cart-container{
+    margin: 3px;
+    padding: 2px;
+    text-align: center;
+}
+.cart-container h5 {
+    font-weight: 700;
+}
+.cart-container button{
+    float: left;
+    margin-top: 10px;
+}
+.cart-container button:active{
+    padding: 0.15rem;
+}
+.cart-details {
+    text-align: left;
+}

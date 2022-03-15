@@ -1,0 +1,26 @@
+.brand-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-page h1 {
+    text-align: center;
+    padding: 1.5rem 0 5rem 0;
+    color:lightcoral;
+}.login-page h3 {
+    text-align: center;
+    padding: 1rem;
+    color:#e60b0bb0;
+}
+.google-logo, .github-logo{
+    width: 100px;
+    padding: 20px;
+}
+.google-logo img{
+    width: 100%;
+    cursor: pointer;
+}
+.github-logo img {
+    width: 100%;
+    cursor: pointer;
+}
